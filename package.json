@@ -1,0 +1,27 @@
+{
+  "name": "dns-registrator",
+  "version": "1.0.0",
+  "description": "Automatically creates a health check and weighted DNS entry on Route53 with the public IP address.",
+  "main": "src/index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.36",
+    "cuid": "^1.2.5",
+    "highland": "^2.5.1",
+    "nconf": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoffinsDev/dns-registrator.git"
+  },
+  "keywords": [
+    "dns",
+    "route53",
+    "docker",
+    "registrator"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoffinsDev/dns-registrator/issues"
+  },
+  "homepage": "https://github.com/BoffinsDev/dns-registrator#readme"
+}
